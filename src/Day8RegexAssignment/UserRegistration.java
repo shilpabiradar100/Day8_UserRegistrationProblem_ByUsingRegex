@@ -1,11 +1,11 @@
 package Day8RegexAssignment;
-/*UC7 = Rule3– Should
-have at least 1
-numeric number in
-the password - NOTE – All rules must be passed*/
+/*UC8 =Rule4 – Has exactly
+1 Special Character
+- NOTE – All rules must be passed*/
 
 public class UserRegistration {
     public static void main(String[] args) {
+
         ValidateUserInfo validateUserInfo = new ValidateUserInfo();
         validateUserInfo.firstName();
         validateUserInfo.lastName();
@@ -14,6 +14,7 @@ public class UserRegistration {
         validateUserInfo.passwordWithEightChar();
         validateUserInfo.passwordWithOneUpperCase();
         validateUserInfo.passwordWithOneNumeric();
+        validateUserInfo.passwordWithOneSpecialChar();
     }
 }
 
