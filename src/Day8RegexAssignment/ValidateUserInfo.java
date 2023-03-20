@@ -86,4 +86,16 @@ public class ValidateUserInfo {
             System.out.println("password is invalid");
         }
     }
+    public void passwordWithOneNumeric(){
+        System.out.println("Enter the password at least one number : ");
+        String password = sc.nextLine();
+        Pattern pattern = Pattern.compile("^^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).+${8,}");
+        Matcher matcher = pattern.matcher(password);
+        boolean matchFound = matcher.find();
+        if (matchFound) {
+            System.out.println("password is valid");
+        } else {
+            System.out.println("password is invalid");
+        }
+    }
 }
