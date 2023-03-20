@@ -1,11 +1,10 @@
 package Day8RegexAssignment;
-/*UC8 =Rule4 – Has exactly
-1 Special Character
-- NOTE – All rules must be passed*/
+/*UC9 = Should clear all
+email samples
+provided separately*/
 
 public class UserRegistration {
     public static void main(String[] args) {
-
         ValidateUserInfo validateUserInfo = new ValidateUserInfo();
         validateUserInfo.firstName();
         validateUserInfo.lastName();
@@ -15,6 +14,7 @@ public class UserRegistration {
         validateUserInfo.passwordWithOneUpperCase();
         validateUserInfo.passwordWithOneNumeric();
         validateUserInfo.passwordWithOneSpecialChar();
+        validateUserInfo.verifyValidEmails();
     }
 }
 
