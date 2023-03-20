@@ -32,7 +32,8 @@ public class ValidateUserInfo {
             System.out.println("last name is invalid");
         }
     }
-    public void email(){
+
+    public void email() {
         System.out.println("Enter the email: ");
         String email = sc.next();
 
@@ -43,6 +44,20 @@ public class ValidateUserInfo {
             System.out.println("email is valid");
         } else {
             System.out.println("email is invalid enter the email again");
+        }
+    }
+
+    public void mobileNumber() {
+        System.out.println("Enter the mobile number: ");
+        String mobileNumber = sc.nextLine();
+
+        Pattern pattern = Pattern.compile("^[+][0-9]{2}[\\s][0-9]{10}$");
+        Matcher matcher = pattern.matcher(mobileNumber);
+        boolean matchFound = matcher.find();
+        if (matchFound) {
+            System.out.println("mobile number is valid");
+        } else {
+            System.out.println("mobile number is invalid");
         }
     }
 }

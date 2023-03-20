@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fd829b3-0758-40f1-af68-83bc56cca6aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Day8RegexAssignment/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8RegexAssignment/UserRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Day8RegexAssignment/ValidateUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8RegexAssignment/ValidateUserInfo.java" afterDir="false" />
     </list>
@@ -44,7 +45,7 @@
       <recent name="Day8RegexAssignment" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.UserRegistration">
     <configuration name="AddressBookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddressBookMain" />
       <module name="Assignments" />
@@ -52,8 +53,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserRegistration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day8RegexAssignment.UserRegistration" />
+      <module name="Assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day8RegexAssignment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserRegistration" />
         <item itemvalue="Application.AddressBookMain" />
       </list>
     </recent_temporary>

@@ -9,9 +9,10 @@ precise @ and . positions*/
 public class UserRegistration {
     public static void main(String[] args) {
         ValidateUserInfo validateUserInfo = new ValidateUserInfo();
-        validateUserInfo.firstName();
-        validateUserInfo.lastName();
-        validateUserInfo.email();
+       // validateUserInfo.firstName();
+        //validateUserInfo.lastName();
+        //validateUserInfo.email(); // firstname lastname commit kel tevach mobile number output mday show hoto otherwise hot nahi
+        validateUserInfo.mobileNumber();
     }
 }
 
