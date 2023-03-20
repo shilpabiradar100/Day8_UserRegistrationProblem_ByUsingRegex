@@ -74,4 +74,16 @@ public class ValidateUserInfo {
             System.out.println("password is invalid");
         }
     }
+    public void passwordWithOneUpperCase(){
+        System.out.println("Enter the password at least with one upper case: ");
+        String password = sc.nextLine();
+        Pattern pattern = Pattern.compile("^(?=.*[a-z])(?=.*[A-Z]).+${8,}");
+        Matcher matcher = pattern.matcher(password);
+        boolean matchFound = matcher.find();
+        if (matchFound) {
+            System.out.println("password is valid");
+        } else {
+            System.out.println("password is invalid");
+        }
+    }
 }
