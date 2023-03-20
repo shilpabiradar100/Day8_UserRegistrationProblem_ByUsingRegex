@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fd829b3-0758-40f1-af68-83bc56cca6aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Day8RegexAssignment/UserRegistration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8RegexAssignment/ValidateUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day8RegexAssignment/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8RegexAssignment/UserRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day8RegexAssignment/ValidateUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8RegexAssignment/ValidateUserInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

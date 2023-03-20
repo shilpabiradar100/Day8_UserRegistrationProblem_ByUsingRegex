@@ -32,4 +32,17 @@ public class ValidateUserInfo {
             System.out.println("last name is invalid");
         }
     }
+    public void email(){
+        System.out.println("Enter the email: ");
+        String email = sc.next();
+
+        Pattern pattern = Pattern.compile("^[a-zA-Z0-9]+([.][0-9a-zA-Z]+)*@[a-zA-Z]+.[a-z]{2,4}([.][a-z]{2,4})*$");
+        Matcher matcher = pattern.matcher(email);
+        boolean matchFound = matcher.find();
+        if (matchFound) {
+            System.out.println("email is valid");
+        } else {
+            System.out.println("email is invalid enter the email again");
+        }
+    }
 }
