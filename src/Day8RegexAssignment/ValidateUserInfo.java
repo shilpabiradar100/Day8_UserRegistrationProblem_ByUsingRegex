@@ -49,6 +49,7 @@ public class ValidateUserInfo {
 
     public void mobileNumber() {
         System.out.println("Enter the mobile number: ");
+        sc.next();
         String mobileNumber = sc.nextLine();
 
         Pattern pattern = Pattern.compile("^[+][0-9]{2}[\\s][0-9]{10}$");
@@ -58,6 +59,19 @@ public class ValidateUserInfo {
             System.out.println("mobile number is valid");
         } else {
             System.out.println("mobile number is invalid");
+        }
+    }
+
+    public void passwordWithEightChar() {
+        System.out.println("Enter the password: ");
+        String password = sc.nextLine();
+        Pattern pattern = Pattern.compile("^[a-zA-z]{8,}");
+        Matcher matcher = pattern.matcher(password);
+        boolean matchFound = matcher.find();
+        if (matchFound) {
+            System.out.println("password is valid");
+        } else {
+            System.out.println("password is invalid");
         }
     }
 }
